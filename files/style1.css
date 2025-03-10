@@ -1,0 +1,146 @@
+.container-1 {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.form-container {
+    padding: 15px;
+    flex: 50%;
+}
+
+.form-container form {
+    background: #fff;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-container label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.red-border,
+.red-border__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-border {
+    position: relative;
+    color: #fff;
+    width: 85px;
+    height: 85px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.red-border__text {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.overlay-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    height: 100%;
+    text-align: center;
+}
+
+.overlay-container {
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    color: #fff;
+    width: 100%;
+    flex: 50%;
+}
+
+.form-container input {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 15px;
+    margin: 15px 0;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #1A8BDC;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-span-6 {
+    font-size: 25px;
+}
+
+.text-span-6 {
+    font-size: 20px;
+}
+
+.text-span-7 {
+    font-size: 25px;
+}
+
+.text-block-5 {
+    text-align: center;
+}
+
+.text-block-6_1 {
+    text-align: center;
+}
+
+.red {
+    text-decoration: line-through;
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+}
